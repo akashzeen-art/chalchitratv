@@ -10,22 +10,22 @@ export interface Video {
 const CDN = "https://vz-012bcd01-e4e.b-cdn.net";
 
 export const trendingVideos: Video[] = [
-  { id: "t1",  title: "Raaz Beyond Fear",          category: "Thriller", aspect: "landscape", thumbnail: "/landscape/1.png",  videoUrl: `${CDN}/a6835e5b-88a3-4c2a-8e9e-972a8e46588c/play_480p.mp4` },
-  { id: "t2",  title: "The Hidden Truth",           category: "Thriller", aspect: "landscape", thumbnail: "/landscape/2.png",  videoUrl: `${CDN}/803b1a1b-4b7a-4376-ae00-118c611ad37d/play_480p.mp4` },
-  { id: "t3",  title: "Silent Chase",               category: "Action",   aspect: "landscape", thumbnail: "/landscape/3.png",  videoUrl: `${CDN}/e7654d3b-fef4-4867-8426-e8deabada55b/play_480p.mp4` },
-  { id: "t4",  title: "The Missing Witness",        category: "Mystery",  aspect: "landscape", thumbnail: "/landscape/4.png",  videoUrl: `${CDN}/9b9b7858-2935-4a71-8554-cb6aa69eefdc/play_480p.mp4` },
-  { id: "t5",  title: "The Secret Route Ep 1",      category: "Drama",    aspect: "landscape", thumbnail: "/landscape/5.png",  videoUrl: `${CDN}/3ff5f869-4419-444b-a338-870703a42f6c/play_480p.mp4` },
-  { id: "t6",  title: "The Secret Route Ep 2",      category: "Drama",    aspect: "landscape", thumbnail: "/landscape/6.png",  videoUrl: `${CDN}/e0608c54-d8e5-4bfb-b354-4ee545847c3e/play_480p.mp4` },
-  { id: "t7",  title: "Raaz, Revenge & Mafia Ep1",  category: "Crime",    aspect: "landscape", thumbnail: "/landscape/7.png",  videoUrl: `${CDN}/ee0edf68-632d-4613-97cb-5dfccbcf327f/play_480p.mp4` },
-  { id: "t8",  title: "Raaz, Revenge & Mafia Ep2",  category: "Crime",    aspect: "landscape", thumbnail: "/landscape/8.png",  videoUrl: `${CDN}/6404e890-3e18-4cab-95f7-3ae76fc0aeb8/play_480p.mp4` },
+  { id: "t1",  title: "Raaz Beyond Fear",          category: "Thriller", aspect: "landscape", thumbnail: "/landscape/1.png",  videoUrl: `${CDN}/e28ebc9f-b16c-46ac-8c95-bb8dec174b5a/play_480p.mp4` },
+  { id: "t2",  title: "The Hidden Truth",           category: "Thriller", aspect: "landscape", thumbnail: "/landscape/2.png",  videoUrl: `${CDN}/e623761c-e400-4d8d-b5f8-49d66d1f8a5b/play_480p.mp4` },
+  { id: "t3",  title: "Silent Chase",               category: "Action",   aspect: "landscape", thumbnail: "/landscape/3.png",  videoUrl: `${CDN}/5baa9dae-1cda-4312-a386-2eae75c6519f/play_480p.mp4` },
+  { id: "t4",  title: "The Missing Witness",        category: "Mystery",  aspect: "landscape", thumbnail: "/landscape/4.png",  videoUrl: `${CDN}/e852da10-0129-4dba-8eb6-7895cc242ee6/play_480p.mp4` },
+  { id: "t5",  title: "The Secret Route Ep 1",      category: "Drama",    aspect: "landscape", thumbnail: "/landscape/5.png",  videoUrl: `${CDN}/bfbdaf66-9be8-48f1-9152-d35b5d3e2c2f/play_480p.mp4` },
+  { id: "t6",  title: "The Secret Route Ep 2",      category: "Drama",    aspect: "landscape", thumbnail: "/landscape/6.png",  videoUrl: `${CDN}/d2e7baf8-81a6-4092-8432-ec006b17ec32/play_480p.mp4` },
+  { id: "t7",  title: "Raaz, Revenge & Mafia Ep1",  category: "Crime",    aspect: "landscape", thumbnail: "/landscape/7.png",  videoUrl: `${CDN}/8c604cec-990c-415d-8086-b62beddc8c8f/play_480p.mp4` },
+  { id: "t8",  title: "Raaz, Revenge & Mafia Ep2",  category: "Crime",    aspect: "landscape", thumbnail: "/landscape/8.png",  videoUrl: `${CDN}/a6c63b7a-2197-4614-b4c7-7580d9b7b0de/play_480p.mp4` },
   { id: "t9",  title: "Silent Trigger",             category: "Action",   aspect: "landscape", thumbnail: "/landscape/9.png",  videoUrl: `${CDN}/204461ac-ae3c-4d31-a393-ed37c9a2ae91/play_480p.mp4` },
   { id: "t10", title: "The Forbidden Files",        category: "Mystery",  aspect: "landscape", thumbnail: "/landscape/10.png", videoUrl: `${CDN}/85f84324-4088-4cc8-8ea2-ca99cb7bc568/play_480p.mp4` },
 ];
 
 export const fatalConnectionsVideos: Video[] = [
   { id: "v11", title: "FATAL CONNECTIONS EP1", category: "Thriller", aspect: "landscape", thumbnail: "/landscape/11.png", videoUrl: `${CDN}/2599bc17-5da5-4ebe-88c6-4e388cfb6e7a/play_480p.mp4` },
-  { id: "v12", title: "FATAL CONNECTIONS EP2", category: "Thriller", aspect: "landscape", thumbnail: "/landscape/12.png", videoUrl: `${CDN}/fc291be4-3392-44be-aef8-d4d056051f1f/play_480p.mp4` },
-  { id: "v13", title: "FATAL CONNECTIONS EP3", category: "Thriller", aspect: "landscape", thumbnail: "/landscape/13.png", videoUrl: `${CDN}/fa05d0b5-a766-4810-b989-a796daf5082e/play_480p.mp4` },
+  { id: "v12", title: "FATAL CONNECTIONS EP2", category: "Thriller", aspect: "landscape", thumbnail: "/landscape/12.png", videoUrl: `${CDN}/95c61a9e-ae0a-43ca-8250-459fbc6b2228/play_480p.mp4` },
+  { id: "v13", title: "FATAL CONNECTIONS EP3", category: "Thriller", aspect: "landscape", thumbnail: "/landscape/13.png", videoUrl: `${CDN}/e039a210-2833-4540-8ed2-882920df66ad/play_480p.mp4` },
   { id: "v14", title: "THE HIDDEN ENEMY",      category: "Thriller", aspect: "landscape", thumbnail: "/landscape/14.png", videoUrl: `${CDN}/47557aed-0f85-45cf-a818-19fd88a2b8de/play_480p.mp4` },
   { id: "v15", title: "ESCAPE FROM NOWHERE",   category: "Action",   aspect: "landscape", thumbnail: "/landscape/15.png", videoUrl: `${CDN}/80d10199-16c3-433f-8802-de52a258588c/play_480p.mp4` },
   { id: "v16", title: "THE FINAL SECRET",      category: "Mystery",  aspect: "landscape", thumbnail: "/landscape/16.png", videoUrl: `${CDN}/3ed4455a-3408-42e9-bf9a-5f45d616ad76/play_480p.mp4` },
@@ -53,11 +53,11 @@ export const dangerousMindsVideos: Video[] = [
   { id: "v32", title: "BEYOND SUSPICION EP1", category: "Thriller", aspect: "landscape", thumbnail: "/landscape/32.png", videoUrl: `${CDN}/1a4d0e65-a4a4-4468-99f6-51d2e3754ded/play_480p.mp4` },
   { id: "v33", title: "BEYOND SUSPICION EP2", category: "Thriller", aspect: "landscape", thumbnail: "/landscape/33.png", videoUrl: `${CDN}/efc7bcdc-2e0e-45a7-a195-7f253abb5763/play_480p.mp4` },
   { id: "v34", title: "FINAL COUNTDOWN",      category: "Action",   aspect: "landscape", thumbnail: "/landscape/34.png", videoUrl: `${CDN}/c0bc6251-f2c8-46b3-89c5-6eea3cd9ce15/play_480p.mp4` },
-  { id: "v35", title: "THE DARK NETWORK",     category: "Crime",    aspect: "landscape", thumbnail: "/landscape/35.png", videoUrl: `${CDN}/e9657c34-99bf-4067-bb06-6c1fae913f0c/play_480p.mp4` },
-  { id: "v36", title: "THE SECRET MISSION",   category: "Action",   aspect: "landscape", thumbnail: "/landscape/36.png", videoUrl: `${CDN}/4cb2c276-8ecd-49ef-967c-48ba4631aa1b/play_480p.mp4` },
+  { id: "v35", title: "THE DARK NETWORK",     category: "Crime",    aspect: "landscape", thumbnail: "/landscape/35.png", videoUrl: `${CDN}/c729a39a-a052-4f10-a6ab-5cb24881e727/play_480p.mp4` },
+  { id: "v36", title: "THE SECRET MISSION",   category: "Action",   aspect: "landscape", thumbnail: "/landscape/36.png", videoUrl: `${CDN}/5afa0c99-8c48-4c37-a783-6c3cee7a10bf/play_480p.mp4` },
   { id: "v37", title: "THE SECRET SYNDICATE", category: "Crime",    aspect: "landscape", thumbnail: "/landscape/37.png", videoUrl: `${CDN}/6cffca6b-7759-40e7-84de-c97856b4c7be/play_480p.mp4` },
   { id: "v38", title: "THE UNKNOWN TARGET",   category: "Thriller", aspect: "landscape", thumbnail: "/landscape/38.png", videoUrl: `${CDN}/cb6cdbd5-e1d3-470c-ab5c-a7e8bcb58945/play_480p.mp4` },
-  { id: "v39", title: "WANTED FOR REVENGE",   category: "Action",   aspect: "landscape", thumbnail: "/landscape/39.png", videoUrl: `${CDN}/a1acd60e-f874-466e-a7aa-c76db9cb57df/play_480p.mp4` },
+  { id: "v39", title: "WANTED FOR REVENGE",   category: "Action",   aspect: "landscape", thumbnail: "/landscape/39.png", videoUrl: `${CDN}/8114c87c-6962-4dcc-b096-27c4c32ad78b/play_480p.mp4` },
   { id: "v40", title: "LAST MISSION ALIVE",   category: "Thriller", aspect: "landscape", thumbnail: "/landscape/40.png", videoUrl: `${CDN}/a1d91030-cf54-420a-9b1c-4afe9ba19e15/play_480p.mp4` },
 ];
 
@@ -92,8 +92,8 @@ export const shadowGameVideos: Video[] = [
   { id: "v62", title: "THE FITNESS TRAP",    category: "Thriller", aspect: "portrait", thumbnail: "/portrait/62.png", videoUrl: `${CDN}/a74bbde6-2f05-49b7-88b5-68ad82b4186c/play_480p.mp4` },
   { id: "v63", title: "THE LAST DEAL",       category: "Crime",    aspect: "portrait", thumbnail: "/portrait/63.png", videoUrl: `${CDN}/2508404e-25a4-475c-8c05-af707dbf1e5d/play_480p.mp4` },
   { id: "v64", title: "THE CRIME CIRCLE",    category: "Crime",    aspect: "portrait", thumbnail: "/portrait/64.png", videoUrl: `${CDN}/912b01f0-6f55-491b-931d-7cda175785e2/play_480p.mp4` },
-  { id: "v65", title: "SECRET NIGHTS",       category: "Drama",    aspect: "portrait", thumbnail: "/portrait/65.png", videoUrl: `${CDN}/0091603b-6880-49c6-ac89-efab0ec04bb8/play_480p.mp4` },
-  { id: "v66", title: "MISSSION DARKNIGHT",  category: "Action",   aspect: "portrait", thumbnail: "/portrait/66.png", videoUrl: `${CDN}/bf3ebf7d-ca49-443f-b7b8-1a3d4e2ae96b/play_480p.mp4` },
+  { id: "v65", title: "SECRET NIGHTS",       category: "Drama",    aspect: "portrait", thumbnail: "/portrait/65.png", videoUrl: `${CDN}/d3901ece-5255-4604-b14c-085219a981b3/play_480p.mp4` },
+  { id: "v66", title: "MISSSION DARKNIGHT",  category: "Action",   aspect: "portrait", thumbnail: "/portrait/66.png", videoUrl: `${CDN}/639f02ab-e3db-434a-872a-72b38b4b277e/play_480p.mp4` },
   { id: "v67", title: "ADVENTURE KE RAAZ",   category: "Adventure", aspect: "portrait", thumbnail: "/portrait/67.png", videoUrl: `${CDN}/a76b2561-f104-4a00-b5ba-5943a1ee5620/play_480p.mp4` },
   { id: "v68", title: "KILLER INSTINCT",     category: "Thriller", aspect: "portrait", thumbnail: "/portrait/68.png", videoUrl: `${CDN}/b920eca1-3a4a-4fce-bebd-0a9d2633e4f3/play_480p.mp4` },
   { id: "v69", title: "ESCAPE ROUT 21",      category: "Action",   aspect: "portrait", thumbnail: "/portrait/69.png", videoUrl: `${CDN}/390332b1-be21-4c28-9bf5-06832673baad/play_480p.mp4` },
@@ -138,7 +138,7 @@ export const chaseToDangerVideos: Video[] = [
   { id: "v99",  title: "BLACK HORIZON",              category: "Thriller",  aspect: "landscape", thumbnail: "/landscape/99.png",  videoUrl: `${CDN}/652f268b-717d-463c-9d72-75d109098df5/play_480p.mp4` },
   { id: "v100", title: "DARK EMPIRE",                category: "Crime",     aspect: "landscape", thumbnail: "/landscape/100.png", videoUrl: `${CDN}/2c8a4f59-3274-4347-ac68-5ff4d0789dae/play_480p.mp4` },
   { id: "v101", title: "ADVENTURE BEYOND BORDERS",   category: "Adventure", aspect: "landscape", thumbnail: "/landscape/101.png", videoUrl: `${CDN}/6dfc4323-4ae3-428e-9866-13053dbd731c/play_480p.mp4` },
-  { id: "v102", title: "MIDNIGHT CASE",              category: "Mystery",   aspect: "landscape", thumbnail: "/landscape/102.png", videoUrl: `${CDN}/0ec9da21-5da0-42b1-a81a-2eb1ee0c98e5/play_480p.mp4` },
+  { id: "v102", title: "MIDNIGHT CASE",              category: "Mystery",   aspect: "landscape", thumbnail: "/landscape/102.png", videoUrl: `${CDN}/f72bac3d-f5f6-4104-9a5d-dd37062a81c4/play_480p.mp4` },
 ];
 
 export const allVideos: Video[] = [
